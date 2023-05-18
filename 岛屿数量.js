@@ -44,7 +44,6 @@ var numIslands = function (grid) {
   function isValid(vaildX, vaildY) {
     return vaildX >= 0 && vaildX < rows && vaildY >= 0 && vaildY < cols;
   }
-  return count;
   console.log("[Log] count-->", count);
 };
 numIslands(
