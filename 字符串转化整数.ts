@@ -3,7 +3,7 @@
  * @param {string} s
  * @return {number}
  */
-https: var myAtoi = function (s: string) {
+var myAtoi = function (s: string) {
   const number = parseInt(s, 10);
 
   if (isNaN(number)) {
